@@ -1596,6 +1596,26 @@ footer .social-icon {
   }
 
 }
+@media(min-width: 768px){
+  #footer img{
+    display: none;
+  }
+  #footer .social-icon{
+    /* margin-right: 40px; */
+    padding-left: 40px;
+    margin: 0%;
+  }
+  .footer-info1{
+    margin-right: 80px;
+  }
+  .footer-info2{
+    margin-right: 100px;
+    /* display: flex; */
+    /* padding-right: 200px; */
+  }
+}
+
+
 
 @media only screen and (max-width: 580px){
   .logo-area img{
@@ -1622,7 +1642,7 @@ footer .social-icon {
   }
   #footer .social-icon{
     /* margin-right: 40px; */
-    padding-left: 70px;
+    padding-left: 100px;
     margin: 0%;
   }
   #footer h2{
@@ -1636,3 +1656,4 @@ footer .social-icon {
   }
   
 }
+soc
