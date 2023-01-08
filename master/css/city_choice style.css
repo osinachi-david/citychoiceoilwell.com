@@ -425,8 +425,12 @@ section {
   border-color: transparent;
   font-weight: bolder;
 }
-@media(max-width:800px){
-  
+@media(min-width:678px){
+  .item .item-fourth h4 {
+    font-size: 30px;
+    color: #000000;
+  }
+
   
 }
 
@@ -457,8 +461,7 @@ section {
   .top-nav-collapse .nav .section-btn a {
     color: #ffffff;
   }
-
-
+ 
 }
 
 
@@ -651,59 +654,7 @@ section {
     transition: all 400ms ease-in-out;
 }
 
-/* #about {
-  padding-bottom: 0;
-}
 
-.about-info {
-  padding: 0 6em 5em 0;
-}
-
-.about-info .section-title {
-  padding-bottom: 20px;
-}
-
-.about-image {
-  position: absolute; */
-  /* height: 100%;
-  width: 100%; */
-  /* padding: 0%;
-  margin: -20px 0px;
-} */
-
-/* section-title ,h2{
-  font-family: sans-serif;
-  margin: 100px auto;
-  text-align: center;
-  font-size: 40px;
-  max-width: 600px;
-  position:relative;
-  }
-  section-title ,h2:before{
-  content: "";
-  display:block;
-  width: 120px;
-  height:2px;
-  background: #000;
-  position: absolute;
-  left: 0;
-  top: 50%;
-  z-index: -2;
-  }
-  section-title ,h2:after{
-  content: "";
-  display:block;
-  width: 120px;
-  height:2px;
-  background: #000;
-  position: absolute;
-  right: 0;
-  top: 50%;
-  z-index: -2;
-  }
-  span{
-  background: #fff
-  } */
 /*---------------------------------------
   CLIENTS            
 -----------------------------------------*/
@@ -1638,18 +1589,50 @@ footer .social-icon {
     width: 200px;
     height: 200px;
   }
+  .item h4 {
+    font-size: 15px;
+    /* color: #000000; */
+    padding-right: 50px;
+  }
+
 }
 
 @media only screen and (max-width: 580px){
   .logo-area img{
-    /* height: 50px; */
-    padding: 20px;
+    /* height:20px; */
+    padding:30px;
+    /* margin-left:100px; */
+    /* width:50px; */
 
   }
   .icons{
     margin-left: 115px;
   }
   .footer-info img{
+    margin-left: 20px;
+  }
+
+  .tst-author{
     margin-left: 50px;
   }
+  #products .product .social ul  {
+    right: 10px;
+    margin: 0%;
+    /* width: auto; */
+  }
+  #footer .social-icon{
+    /* margin-right: 40px; */
+    padding-left: 70px;
+    margin: 0%;
+  }
+  #footer h2{
+    margin-left: 40px;
+  }
+  .navbar .collapse{
+    overflow: hidden;
+  }
+  body{
+    /* overflow: hidden; */
+  }
+  
 }
